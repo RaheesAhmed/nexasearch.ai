@@ -1,19 +1,7 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
-  experimental: {
-    serverActions: {
-      allowedOrigins: ["*"],
-    },
-  },
-
-  typescript: {
-    ignoreBuildErrors: true,
-  },
+const withBundleAnalyzer = require("@next/bundle-analyzer")({
+  enabled: process.env.ANALYZE === "true",
   eslint: {
     ignoreDuringBuilds: true,
   },
-};
-
-export default nextConfig;
+});
+module.exports = withBundleAnalyzer({});
