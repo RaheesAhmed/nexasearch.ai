@@ -83,7 +83,7 @@ export function ChatMessageBubble(props: {
                         </span>
                       </div>
                       <div className="mt-2 text-gray-300">
-                        "{source.pageContent}"
+                        &quot;{source.pageContent}&quot;
                       </div>
                     </div>
                   ))}

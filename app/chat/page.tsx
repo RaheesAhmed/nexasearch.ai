@@ -13,13 +13,13 @@ export default function RetrievalPage() {
           <div className="flex flex-col gap-3">
             <h2 className="text-lg font-medium mb-3 text-center">Examples</h2>
             <button className="text-left bg-[#3E3F4B] p-3 rounded-md hover:bg-gray-700 transition-colors text-sm">
-              "What is a document loader?" →
+              &quot;What is a document loader?&quot; →
             </button>
             <button className="text-left bg-[#3E3F4B] p-3 rounded-md hover:bg-gray-700 transition-colors text-sm">
-              "How can I use vector stores?" →
+              &quot;How can I use vector stores?&quot; →
             </button>
             <button className="text-left bg-[#3E3F4B] p-3 rounded-md hover:bg-gray-700 transition-colors text-sm">
-              "Explain the retrieval process" →
+              &quot;Explain the retrieval process&quot; →
             </button>
           </div>
 
