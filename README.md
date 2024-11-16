@@ -45,10 +45,10 @@ NexaSearch is an advanced search platform that seamlessly integrates PDF documen
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/nexasearch.git
+git clone https://github.com/RaheesAhmed/nexasearch.ai.git
 
 # Install dependencies
-cd nexasearch
+cd nexasearch.ai
 npm install
 
 # Setup environment variables
